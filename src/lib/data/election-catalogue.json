@@ -1,0 +1,1866 @@
+[
+  {
+    "column_name": "Electricity",
+    "question": "Electricity at least once a day?",
+    "topic": "Respondent",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Electricity_N",
+    "question": "Electricity at least once a day?",
+    "topic": "Respondent",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Electricity",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Speak_Pol",
+    "question": "At present, how safe do you feel speaking publicly on politically sensitive issues?",
+    "topic": "Security",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W2_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Speak_Pol_N",
+    "question": "At present, how safe do you feel speaking publicly on politically sensitive issues?",
+    "topic": "Security",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W2_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Speak_Pol",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Speak_Safe_Year",
+    "question": "In what year since the conflict broke out in December 2013 have you felt most comfortable publicly voicing your opinion on politically sensitive issues?",
+    "topic": "Security",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W2_2022",
+      "W4_2023"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Speak_Since_2018",
+    "question": "Do you feel more or less safe voicing your opinion on politically sensitive issues now relative to when the revitalized peace agreement was signed in 2018?",
+    "topic": "Security",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W2_2022",
+      "W4_2023"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Violence",
+    "question": "How would you assess the risk of violence in relation to the elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W1_2021",
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Violence_N",
+    "question": "How would you assess the risk of violence in relation to the elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W1_2021",
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Election_Violence",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "ND_Contest_Elections_Agree",
+    "question": "At the conclusion of its national conference in November 2020, the National Dialogue leadership recommended that the president, first-vice president and four vice presidents not contest in elections at the end of the transitional period. Do you agree with this proposal?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W1_2021",
+      "W2_2022"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Questions_Emotions",
+    "question": "How did you feel when answering the last set of questions about elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W1_2021",
+      "W2_2022",
+      "W3_2022"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Voted_2010",
+    "question": "Did you vote in the 2010 national elections in Sudan?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Voted_Other",
+    "question": "Have you ever voted in another national election, whether in South Sudan or in another country?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Voted_TA",
+    "question": "Have you ever participated in elections for local traditional leaders in South Sudan (not including youth and women's representatives)?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Hopeful",
+    "question": "The plan for an election makes me feel hopeful about the future of South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Hopeful_N",
+    "question": "The plan for an election makes me feel hopeful about the future of South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_Hopeful",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Afraid",
+    "question": "The plan for an election makes me feel afraid about the future of South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Afraid_N",
+    "question": "The plan for an election makes me feel afraid about the future of South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_Afraid",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Held",
+    "question": "Elections should be held in South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Held_N",
+    "question": "Elections should be held in South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_Held",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Peace",
+    "question": "Elections will help South Sudan transition to peace",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Peace_N",
+    "question": "Elections will help South Sudan transition to peace",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_Peace",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Will_Vote",
+    "question": "When elections are held, I am likely to vote",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Will_Vote_N",
+    "question": "When elections are held, I am likely to vote",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_Will_Vote",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Individual",
+    "question": "My vote is an individual choice. I do not need to vote the same way as my family or community",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Individual_N",
+    "question": "My vote is an individual choice. I do not need to vote the same way as my family or community",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Vote_Individual",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Family",
+    "question": "All members of my family should vote the same way",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Family_N",
+    "question": "All members of my family should vote the same way",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Vote_Family",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Community",
+    "question": "All members of my community should vote the same way",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Community_N",
+    "question": "All members of my community should vote the same way",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Vote_Community",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_When",
+    "question": "When should elections happen?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W2_2022",
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Ethnic_Other",
+    "question": "I would vote for a political leader from another ethnic group",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Ethnic_Other_N",
+    "question": "I would vote for a political leader from another ethnic group",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Vote_Ethnic_Other",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Party_Vision",
+    "question": "Which political party do you think has the best vision for South Sudan? If you think that no political party has a good vision, you can answer 'none'",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Party_Vision_Other",
+    "question": "Other (please specify)",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Community_Politicians",
+    "question": "Politicians in Juba influence safety in our community",
+    "topic": "Community",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Community_Politicians_N",
+    "question": "Politicians in Juba influence safety in our community",
+    "topic": "Community",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Community_Politicians",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Armed_Groups_About",
+    "question": "When armed group are fighting in this area, is it primarily about national political issues, local political issues, both national and local political issues, or not about politics at all?",
+    "topic": "Conflict",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W3_2022",
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Feel_Prepared",
+    "question": "Vote_Feel_Prepared",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Vote_Feel_Prepared_N",
+    "question": "Vote_Feel_Prepared",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W4_2023",
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Vote_Feel_Prepared",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Constitution_Enact",
+    "question": "Do you think the enactment of a permanent constitution should be done by the transitional government or by a new, elected government?",
+    "topic": "Constitution",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W4_2023",
+      "W5_2024"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Ready",
+    "question": "South Sudan is ready for elections",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Delay_How_Long",
+    "question": "How long of a delay would you accept?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Ready_N",
+    "question": "South Sudan is ready for elections",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_Ready",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_SPLM_Unity_N",
+    "question": "The SPLM and SPLM-IO should agree to become one party before elections happen",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_SPLM_Unity",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_delay",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by the scheduled election date, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": "Election_Delay_Deploy', 'Election_Delay_None', 'Election_Delay_NA', 'Election_Delay_Const', 'Election_Delay_Census', 'Election_Delay_Returnees', 'Election_Delay_Tumaini'",
+    "summarised": "Y",
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Delay_Census",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by the scheduled election date, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Delay_Const",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by the scheduled election date, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Delay_Deploy",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by the scheduled election date, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Delay_Returnees",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by the scheduled election date, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Delay_None",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by the scheduled election date, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Delay_NA",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by the scheduled election date, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_SPLM_Unity",
+    "question": "The SPLM and SPLM-IO should agree to become one party before elections happen",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Fraud",
+    "question": "There is likely to be fraud during elections",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Fraud_N",
+    "question": "There is likely to be fraud during elections",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_Fraud",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "UNMISS_Leave_After_Elections",
+    "question": "To what extent do you agree or disagree with the following statement? 'After elections, UNMISS no longer needs to maintain a presence in South Sudan.'",
+    "topic": "UNMISS",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "UNMISS_Leave_After_Elections_N",
+    "question": "To what extent do you agree or disagree with the following statement? 'After elections, UNMISS no longer needs to maintain a presence in South Sudan.'",
+    "topic": "UNMISS",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "UNMISS_Leave_After_Elections",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Issues_Vote",
+    "question": "Which of the following issues is most important factor affecting your choice of candidate to vote for in the elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Issues_Vote_Other",
+    "question": "Which of the following issues is most important factor affecting your choice of candidate to vote for in the elections? (Other, specified)",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Term_limits",
+    "question": "Which, if any, of these positions should have term limits?",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": "Term_Limits_All', 'Term_Limits_Gov', 'Term_Limits_MPs', 'Term_Limits_None', 'Term_Limits_NA', 'Term_Limits_President'",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Term_Limits_President",
+    "question": "Which, if any, of these positions should have term limits?/President",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Term_Limits_Gov",
+    "question": "Which, if any, of these positions should have term limits?/Governors",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Term_Limits_MPs",
+    "question": "Which, if any, of these positions should have term limits?/Members of Parliament",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Term_Limits_All",
+    "question": "Which, if any, of these positions should have term limits?/All elected positions",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Term_Limits_None",
+    "question": "Which, if any, of these positions should have term limits?/None of the above",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Term_Limits_NA",
+    "question": "Which, if any, of these positions should have term limits?/Not answered",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Quota",
+    "question": "The peace agreement includes a 35% quota for women in public offices. What should happen to this quota after the elections?",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Sequence",
+    "question": "Should different elections happen at different times and be sequenced, or should all elections happen at the same time? By 'different elections', I mean when you vote for the president, national MPs, state governors, state-level MPs and county commissioners",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Pol_Campaign_Free",
+    "question": "All political parties are able to campaign freely in South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Pol_Campaign_Free_N",
+    "question": "All political parties are able to campaign freely in South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Pol_Campaign_Free",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "NEC_Organise",
+    "question": "The National Elections Commission can organise credible elections",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "NEC_Organise_N",
+    "question": "The National Elections Commission can organise credible elections",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "NEC_Organise",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_observe",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": "Election_Observe_AU', 'Election_Observe_EU', 'Election_Observe_ETH', 'Election_Observe_IGAD', 'Election_Observe_KEN', 'Election_Observe_NGOs', 'Election_Observe_NA', 'Election_Observe_Oth', 'Election_Observe_SDN', 'Election_Observe_UK', 'Election_Observe_USA', 'Election_Observe_UGA', 'Election_Observe_UN'",
+    "summarised": "Y",
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_EU",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_USA",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_IGAD",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_AU",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_UN",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_UK",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_UGA",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_KEN",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_SDN",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_ETH",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_NGOs",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_Oth",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_Other",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Observe_NA",
+    "question": "In your opinion, which organisations should lead in observing the scheduled South Sudan elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_CS_role",
+    "question": "What should be the role of civil society in the electoral process?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": "Elections_Civil_Soc_Role_1', 'Elections_Civil_Soc_Role_2', 'Elections_Civil_Soc_Role_3', 'Elections_Civil_Soc_Role_4', 'Elections_Civil_Soc_Role_5', 'Elections_Civil_Soc_Role_6', 'Elections_Civil_Soc_Role_7', 'Elections_Civil_Soc_Role_8', 'Elections_Civil_Soc_Role_9'",
+    "summarised": "Y",
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_1",
+    "question": "What should be the role of civil society in the electoral process?/Observing and monitoring",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_2",
+    "question": "What should be the role of civil society in the electoral process?/Should run as candidates",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_3",
+    "question": "What should be the role of civil society in the electoral process?/Civic and voter education",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_4",
+    "question": "What should be the role of civil society in the electoral process?/Advocating for political candidates",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_5",
+    "question": "What should be the role of civil society in the electoral process?/Electoral dispute resolution",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_6",
+    "question": "What should be the role of civil society in the electoral process?/Training political parties",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_7",
+    "question": "What should be the role of civil society in the electoral process?/Mobilizing people to vote on election day",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_8",
+    "question": "What should be the role of civil society in the electoral process?/Other (please specify)",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_9",
+    "question": "What should be the role of civil society in the electoral process?/Not answered",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role_Other",
+    "question": "What should be the role of civil society in the electoral process?/Other (Specified)",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Climate_Political_Conflict",
+    "question": "Climate change and changing weather conditions have exacerbated politically motivated conflict between armed movements in this area",
+    "topic": "Climate",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Climate_Political_Conflict_N",
+    "question": "Climate change and changing weather conditions have exacerbated politically motivated conflict between armed movements in this area",
+    "topic": "Climate",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025"
+    ],
+    "scaled": "Y",
+    "derived_from": "Climate_Political_Conflict",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Community_Elections_Contest_OK",
+    "question": "If someone from a tribe that has harmed my community in the past wins an election, my community will be justified in using violence to contest the election",
+    "topic": "Community",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Community_Elections_Contest_OK_N",
+    "question": "If someone from a tribe that has harmed my community in the past wins an election, my community will be justified in using violence to contest the election",
+    "topic": "Community",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Community_Elections_Contest_OK",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Necessary_Delay",
+    "question": "Would you support a delay of elections if the necessary conditions are not in place by December 2026?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Election_Delay_Tumaini",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by the scheduled election date, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": "Y",
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Const_Before_Elections",
+    "question": "Do you think the permanent constitution should be enacted before or after elections?",
+    "topic": "Constitution",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "President_Or_New",
+    "question": "Do you think the current President should contest in the elections, or would you prefer for a new candidate to run as the SPLM candidate?",
+    "topic": "Governance",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "VP_Or_New",
+    "question": "Do you think the current First Vice President should contest in the elections, or would you prefer for a new candidate to run as the SPLM-IO candidate?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_War",
+    "question": "If the elections are held as planned in December 2026, it is likely to cause a return to full-scale civil war in South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_War_N",
+    "question": "If the elections are held as planned in December 2026, it is likely to cause a return to full-scale civil war in South Sudan",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_War",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Interfere",
+    "question": "The organized forces will interfere with elections",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Interfere_N",
+    "question": "The organized forces will interfere with elections",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "Y",
+    "derived_from": "Elections_Interfere",
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Delay_What",
+    "question": "In your opinion, which, if any, of the following tasks, if not completed by December 2024, would warrant a delay in elections?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Term_Limits",
+    "question": "Which, if any, of these positions should have term limits?",
+    "topic": "Respondent",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Observe",
+    "question": "In your opinion, which of the following organisations should lead in observing the South Sudan elections in December 2024?",
+    "topic": "Elections",
+    "candidate_reason": "documentation_topic_elections",
+    "waves_available": [
+      "W5_2024",
+      "W7_2026"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  },
+  {
+    "column_name": "Elections_Civil_Soc_Role",
+    "question": "Elections Civil Soc Role",
+    "topic": "Respondent",
+    "candidate_reason": "broad_keyword_candidate",
+    "waves_available": [
+      "W5_2024",
+      "W6_2025"
+    ],
+    "scaled": "N",
+    "derived_from": null,
+    "summarised": null,
+    "binary": null,
+    "review_status": "candidate_pending_family_and_comparability_review"
+  }
+]

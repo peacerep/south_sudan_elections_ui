@@ -1,0 +1,20 @@
+{
+  "name": "south-sudan-elections-first-story",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:draft": "cross-env DRAFT_COMPILE=true vite build --outDir dist-draft",
+    "serve:draft": "node scripts/serve-draft.mjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@fontsource/montserrat": "^5.2.8",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "cross-env": "^7.0.3",
+    "svelte": "^5.1.3",
+    "vite": "^8.3.4"
+  }
+}

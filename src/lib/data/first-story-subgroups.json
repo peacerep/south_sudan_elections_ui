@@ -1,0 +1,2608 @@
+{
+  "publication_version": "v3-final-data-review-interface",
+  "source_release": "public_wave_1_7_2026_v3",
+  "review_status": "draft_not_approved",
+  "grouping": {
+    "field": "environment_type",
+    "categories": [
+      "Urban",
+      "Rural",
+      "IDP Camp"
+    ],
+    "labels": {
+      "Urban": "Urban environment",
+      "Rural": "Rural environment",
+      "IDP Camp": "IDP camp environment"
+    },
+    "note": "These are survey environment categories recorded in the source data, not identities or nationally representative population groups."
+  },
+  "suppression": {
+    "threshold": 30,
+    "status": "provisional_pending_disclosure_review"
+  },
+  "method": "Unweighted valid-response percentages calculated from the longitudinal Waves 1-7 workbook, following the existing report method.",
+  "measures": [
+    {
+      "measure_id": "elections_hopeful",
+      "question": "The plan for an election makes me feel hopeful about the future of South Sudan",
+      "expected_waves": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "grouped_response": "Agree or strongly agree",
+      "categories": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree (nus-nus)",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "measure_id": "elections_afraid",
+      "question": "The plan for an election makes me feel afraid about the future of South Sudan",
+      "expected_waves": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "grouped_response": "Agree or strongly agree",
+      "categories": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree (nus-nus)",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "question": "How would you assess the risk of violence in relation to the elections?",
+      "expected_waves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "grouped_response": "Somehow high or very high",
+      "categories": [
+        "Very low",
+        "Somehow low",
+        "Somehow high",
+        "Very high"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "wave": 1,
+      "year": 2021,
+      "environment_type": "IDP Camp",
+      "interview_n": 527
+    },
+    {
+      "wave": 1,
+      "year": 2021,
+      "environment_type": "Rural",
+      "interview_n": 290
+    },
+    {
+      "wave": 1,
+      "year": 2021,
+      "environment_type": "Urban",
+      "interview_n": 1459
+    },
+    {
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "IDP Camp",
+      "interview_n": 986
+    },
+    {
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "Rural",
+      "interview_n": 1255
+    },
+    {
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "Urban",
+      "interview_n": 1154
+    },
+    {
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "IDP Camp",
+      "interview_n": 947
+    },
+    {
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "Rural",
+      "interview_n": 1430
+    },
+    {
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "Urban",
+      "interview_n": 796
+    },
+    {
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "IDP Camp",
+      "interview_n": 780
+    },
+    {
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "Rural",
+      "interview_n": 1938
+    },
+    {
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "Urban",
+      "interview_n": 1764
+    },
+    {
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "IDP Camp",
+      "interview_n": 919
+    },
+    {
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "Rural",
+      "interview_n": 1856
+    },
+    {
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "Urban",
+      "interview_n": 1994
+    },
+    {
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "IDP Camp",
+      "interview_n": 833
+    },
+    {
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "Rural",
+      "interview_n": 1967
+    },
+    {
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "Urban",
+      "interview_n": 1782
+    },
+    {
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "IDP Camp",
+      "interview_n": 819
+    },
+    {
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "Rural",
+      "interview_n": 1914
+    },
+    {
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "Urban",
+      "interview_n": 1793
+    }
+  ],
+  "results": [
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 1,
+      "year": 2021,
+      "environment_type": "IDP Camp",
+      "numerator": 333,
+      "valid_n": 506,
+      "missing_n": 21,
+      "percentage_valid": 65.81,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 44,
+          "percentage_valid": 8.696
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 129,
+          "percentage_valid": 25.494
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 137,
+          "percentage_valid": 27.075
+        },
+        {
+          "category": "Very high",
+          "numerator": 196,
+          "percentage_valid": 38.735
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 1,
+      "year": 2021,
+      "environment_type": "Rural",
+      "numerator": 161,
+      "valid_n": 279,
+      "missing_n": 11,
+      "percentage_valid": 57.706,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 57,
+          "percentage_valid": 20.43
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 61,
+          "percentage_valid": 21.864
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 82,
+          "percentage_valid": 29.391
+        },
+        {
+          "category": "Very high",
+          "numerator": 79,
+          "percentage_valid": 28.315
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 1,
+      "year": 2021,
+      "environment_type": "Urban",
+      "numerator": 1018,
+      "valid_n": 1425,
+      "missing_n": 34,
+      "percentage_valid": 71.439,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 189,
+          "percentage_valid": 13.263
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 218,
+          "percentage_valid": 15.298
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 428,
+          "percentage_valid": 30.035
+        },
+        {
+          "category": "Very high",
+          "numerator": 590,
+          "percentage_valid": 41.404
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "IDP Camp",
+      "numerator": 650,
+      "valid_n": 978,
+      "missing_n": 8,
+      "percentage_valid": 66.462,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 83,
+          "percentage_valid": 8.487
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 245,
+          "percentage_valid": 25.051
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 284,
+          "percentage_valid": 29.039
+        },
+        {
+          "category": "Very high",
+          "numerator": 366,
+          "percentage_valid": 37.423
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "Rural",
+      "numerator": 683,
+      "valid_n": 1221,
+      "missing_n": 34,
+      "percentage_valid": 55.938,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 249,
+          "percentage_valid": 20.393
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 289,
+          "percentage_valid": 23.669
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 412,
+          "percentage_valid": 33.743
+        },
+        {
+          "category": "Very high",
+          "numerator": 271,
+          "percentage_valid": 22.195
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "Urban",
+      "numerator": 679,
+      "valid_n": 1138,
+      "missing_n": 16,
+      "percentage_valid": 59.666,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 132,
+          "percentage_valid": 11.599
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 327,
+          "percentage_valid": 28.735
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 382,
+          "percentage_valid": 33.568
+        },
+        {
+          "category": "Very high",
+          "numerator": 297,
+          "percentage_valid": 26.098
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "IDP Camp",
+      "numerator": 558,
+      "valid_n": 929,
+      "missing_n": 18,
+      "percentage_valid": 60.065,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 135,
+          "percentage_valid": 14.532
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 236,
+          "percentage_valid": 25.404
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 264,
+          "percentage_valid": 28.418
+        },
+        {
+          "category": "Very high",
+          "numerator": 294,
+          "percentage_valid": 31.647
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "Rural",
+      "numerator": 656,
+      "valid_n": 1315,
+      "missing_n": 115,
+      "percentage_valid": 49.886,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 336,
+          "percentage_valid": 25.551
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 323,
+          "percentage_valid": 24.563
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 423,
+          "percentage_valid": 32.167
+        },
+        {
+          "category": "Very high",
+          "numerator": 233,
+          "percentage_valid": 17.719
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "Urban",
+      "numerator": 476,
+      "valid_n": 745,
+      "missing_n": 51,
+      "percentage_valid": 63.893,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 96,
+          "percentage_valid": 12.886
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 173,
+          "percentage_valid": 23.221
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 238,
+          "percentage_valid": 31.946
+        },
+        {
+          "category": "Very high",
+          "numerator": 238,
+          "percentage_valid": 31.946
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "IDP Camp",
+      "numerator": 515,
+      "valid_n": 740,
+      "missing_n": 40,
+      "percentage_valid": 69.595,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 44,
+          "percentage_valid": 5.946
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 181,
+          "percentage_valid": 24.459
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 260,
+          "percentage_valid": 35.135
+        },
+        {
+          "category": "Very high",
+          "numerator": 255,
+          "percentage_valid": 34.459
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "Rural",
+      "numerator": 1119,
+      "valid_n": 1832,
+      "missing_n": 106,
+      "percentage_valid": 61.081,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 252,
+          "percentage_valid": 13.755
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 461,
+          "percentage_valid": 25.164
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 594,
+          "percentage_valid": 32.424
+        },
+        {
+          "category": "Very high",
+          "numerator": 525,
+          "percentage_valid": 28.657
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "Urban",
+      "numerator": 1098,
+      "valid_n": 1674,
+      "missing_n": 90,
+      "percentage_valid": 65.591,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 149,
+          "percentage_valid": 8.901
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 427,
+          "percentage_valid": 25.508
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 703,
+          "percentage_valid": 41.995
+        },
+        {
+          "category": "Very high",
+          "numerator": 395,
+          "percentage_valid": 23.596
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "IDP Camp",
+      "numerator": 664,
+      "valid_n": 897,
+      "missing_n": 22,
+      "percentage_valid": 74.025,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 110,
+          "percentage_valid": 12.263
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 123,
+          "percentage_valid": 13.712
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 281,
+          "percentage_valid": 31.327
+        },
+        {
+          "category": "Very high",
+          "numerator": 383,
+          "percentage_valid": 42.698
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "Rural",
+      "numerator": 887,
+      "valid_n": 1738,
+      "missing_n": 118,
+      "percentage_valid": 51.036,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 328,
+          "percentage_valid": 18.872
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 523,
+          "percentage_valid": 30.092
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 582,
+          "percentage_valid": 33.487
+        },
+        {
+          "category": "Very high",
+          "numerator": 305,
+          "percentage_valid": 17.549
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "Urban",
+      "numerator": 1149,
+      "valid_n": 1908,
+      "missing_n": 86,
+      "percentage_valid": 60.22,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 301,
+          "percentage_valid": 15.776
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 458,
+          "percentage_valid": 24.004
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 744,
+          "percentage_valid": 38.994
+        },
+        {
+          "category": "Very high",
+          "numerator": 405,
+          "percentage_valid": 21.226
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "IDP Camp",
+      "numerator": 638,
+      "valid_n": 812,
+      "missing_n": 21,
+      "percentage_valid": 78.571,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 81,
+          "percentage_valid": 9.975
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 93,
+          "percentage_valid": 11.453
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 193,
+          "percentage_valid": 23.768
+        },
+        {
+          "category": "Very high",
+          "numerator": 445,
+          "percentage_valid": 54.803
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "Rural",
+      "numerator": 1325,
+      "valid_n": 1895,
+      "missing_n": 72,
+      "percentage_valid": 69.921,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 255,
+          "percentage_valid": 13.456
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 315,
+          "percentage_valid": 16.623
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 780,
+          "percentage_valid": 41.161
+        },
+        {
+          "category": "Very high",
+          "numerator": 545,
+          "percentage_valid": 28.76
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "Urban",
+      "numerator": 1092,
+      "valid_n": 1735,
+      "missing_n": 47,
+      "percentage_valid": 62.939,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 228,
+          "percentage_valid": 13.141
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 415,
+          "percentage_valid": 23.919
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 651,
+          "percentage_valid": 37.522
+        },
+        {
+          "category": "Very high",
+          "numerator": 441,
+          "percentage_valid": 25.418
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "IDP Camp",
+      "numerator": 673,
+      "valid_n": 810,
+      "missing_n": 9,
+      "percentage_valid": 83.086,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 38,
+          "percentage_valid": 4.691
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 99,
+          "percentage_valid": 12.222
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 155,
+          "percentage_valid": 19.136
+        },
+        {
+          "category": "Very high",
+          "numerator": 518,
+          "percentage_valid": 63.951
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "Rural",
+      "numerator": 1120,
+      "valid_n": 1846,
+      "missing_n": 68,
+      "percentage_valid": 60.672,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 280,
+          "percentage_valid": 15.168
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 446,
+          "percentage_valid": 24.16
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 556,
+          "percentage_valid": 30.119
+        },
+        {
+          "category": "Very high",
+          "numerator": 564,
+          "percentage_valid": 30.553
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "Urban",
+      "numerator": 1102,
+      "valid_n": 1733,
+      "missing_n": 60,
+      "percentage_valid": 63.589,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 218,
+          "percentage_valid": 12.579
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 413,
+          "percentage_valid": 23.832
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 558,
+          "percentage_valid": 32.198
+        },
+        {
+          "category": "Very high",
+          "numerator": 544,
+          "percentage_valid": 31.391
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": "all",
+      "year": null,
+      "environment_type": "IDP Camp",
+      "numerator": 4031,
+      "valid_n": 5672,
+      "missing_n": 139,
+      "percentage_valid": 71.068,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 535,
+          "percentage_valid": 9.432
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 1106,
+          "percentage_valid": 19.499
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 1574,
+          "percentage_valid": 27.75
+        },
+        {
+          "category": "Very high",
+          "numerator": 2457,
+          "percentage_valid": 43.318
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": "all",
+      "year": null,
+      "environment_type": "Rural",
+      "numerator": 5951,
+      "valid_n": 10126,
+      "missing_n": 524,
+      "percentage_valid": 58.77,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 1757,
+          "percentage_valid": 17.351
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 2418,
+          "percentage_valid": 23.879
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 3429,
+          "percentage_valid": 33.863
+        },
+        {
+          "category": "Very high",
+          "numerator": 2522,
+          "percentage_valid": 24.906
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "election_violence_risk",
+      "wave": "all",
+      "year": null,
+      "environment_type": "Urban",
+      "numerator": 6614,
+      "valid_n": 10358,
+      "missing_n": 384,
+      "percentage_valid": 63.854,
+      "distribution": [
+        {
+          "category": "Very low",
+          "numerator": 1313,
+          "percentage_valid": 12.676
+        },
+        {
+          "category": "Somehow low",
+          "numerator": 2431,
+          "percentage_valid": 23.47
+        },
+        {
+          "category": "Somehow high",
+          "numerator": 3704,
+          "percentage_valid": 35.76
+        },
+        {
+          "category": "Very high",
+          "numerator": 2910,
+          "percentage_valid": 28.094
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "IDP Camp",
+      "numerator": 635,
+      "valid_n": 983,
+      "missing_n": 3,
+      "percentage_valid": 64.598,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 35,
+          "percentage_valid": 3.561
+        },
+        {
+          "category": "Disagree",
+          "numerator": 199,
+          "percentage_valid": 20.244
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 114,
+          "percentage_valid": 11.597
+        },
+        {
+          "category": "Agree",
+          "numerator": 325,
+          "percentage_valid": 33.062
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 310,
+          "percentage_valid": 31.536
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "Rural",
+      "numerator": 666,
+      "valid_n": 1253,
+      "missing_n": 2,
+      "percentage_valid": 53.152,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 98,
+          "percentage_valid": 7.821
+        },
+        {
+          "category": "Disagree",
+          "numerator": 320,
+          "percentage_valid": 25.539
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 169,
+          "percentage_valid": 13.488
+        },
+        {
+          "category": "Agree",
+          "numerator": 460,
+          "percentage_valid": 36.712
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 206,
+          "percentage_valid": 16.441
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "Urban",
+      "numerator": 595,
+      "valid_n": 1148,
+      "missing_n": 6,
+      "percentage_valid": 51.829,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 44,
+          "percentage_valid": 3.833
+        },
+        {
+          "category": "Disagree",
+          "numerator": 285,
+          "percentage_valid": 24.826
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 224,
+          "percentage_valid": 19.512
+        },
+        {
+          "category": "Agree",
+          "numerator": 439,
+          "percentage_valid": 38.24
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 156,
+          "percentage_valid": 13.589
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "IDP Camp",
+      "numerator": 440,
+      "valid_n": 946,
+      "missing_n": 1,
+      "percentage_valid": 46.512,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 62,
+          "percentage_valid": 6.554
+        },
+        {
+          "category": "Disagree",
+          "numerator": 234,
+          "percentage_valid": 24.736
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 210,
+          "percentage_valid": 22.199
+        },
+        {
+          "category": "Agree",
+          "numerator": 277,
+          "percentage_valid": 29.281
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 163,
+          "percentage_valid": 17.23
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "Rural",
+      "numerator": 495,
+      "valid_n": 1406,
+      "missing_n": 24,
+      "percentage_valid": 35.206,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 206,
+          "percentage_valid": 14.651
+        },
+        {
+          "category": "Disagree",
+          "numerator": 385,
+          "percentage_valid": 27.383
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 320,
+          "percentage_valid": 22.76
+        },
+        {
+          "category": "Agree",
+          "numerator": 333,
+          "percentage_valid": 23.684
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 162,
+          "percentage_valid": 11.522
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "Urban",
+      "numerator": 286,
+      "valid_n": 786,
+      "missing_n": 10,
+      "percentage_valid": 36.387,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 75,
+          "percentage_valid": 9.542
+        },
+        {
+          "category": "Disagree",
+          "numerator": 289,
+          "percentage_valid": 36.768
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 136,
+          "percentage_valid": 17.303
+        },
+        {
+          "category": "Agree",
+          "numerator": 243,
+          "percentage_valid": 30.916
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 43,
+          "percentage_valid": 5.471
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "IDP Camp",
+      "numerator": 422,
+      "valid_n": 779,
+      "missing_n": 1,
+      "percentage_valid": 54.172,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 16,
+          "percentage_valid": 2.054
+        },
+        {
+          "category": "Disagree",
+          "numerator": 228,
+          "percentage_valid": 29.268
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 113,
+          "percentage_valid": 14.506
+        },
+        {
+          "category": "Agree",
+          "numerator": 256,
+          "percentage_valid": 32.863
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 166,
+          "percentage_valid": 21.309
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "Rural",
+      "numerator": 832,
+      "valid_n": 1899,
+      "missing_n": 39,
+      "percentage_valid": 43.813,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 251,
+          "percentage_valid": 13.217
+        },
+        {
+          "category": "Disagree",
+          "numerator": 447,
+          "percentage_valid": 23.539
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 369,
+          "percentage_valid": 19.431
+        },
+        {
+          "category": "Agree",
+          "numerator": 543,
+          "percentage_valid": 28.594
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 289,
+          "percentage_valid": 15.219
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "Urban",
+      "numerator": 823,
+      "valid_n": 1738,
+      "missing_n": 26,
+      "percentage_valid": 47.353,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 179,
+          "percentage_valid": 10.299
+        },
+        {
+          "category": "Disagree",
+          "numerator": 439,
+          "percentage_valid": 25.259
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 297,
+          "percentage_valid": 17.089
+        },
+        {
+          "category": "Agree",
+          "numerator": 512,
+          "percentage_valid": 29.459
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 311,
+          "percentage_valid": 17.894
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "IDP Camp",
+      "numerator": 565,
+      "valid_n": 915,
+      "missing_n": 4,
+      "percentage_valid": 61.749,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 121,
+          "percentage_valid": 13.224
+        },
+        {
+          "category": "Disagree",
+          "numerator": 156,
+          "percentage_valid": 17.049
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 73,
+          "percentage_valid": 7.978
+        },
+        {
+          "category": "Agree",
+          "numerator": 324,
+          "percentage_valid": 35.41
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 241,
+          "percentage_valid": 26.339
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "Rural",
+      "numerator": 631,
+      "valid_n": 1800,
+      "missing_n": 56,
+      "percentage_valid": 35.056,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 169,
+          "percentage_valid": 9.389
+        },
+        {
+          "category": "Disagree",
+          "numerator": 568,
+          "percentage_valid": 31.556
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 432,
+          "percentage_valid": 24.0
+        },
+        {
+          "category": "Agree",
+          "numerator": 410,
+          "percentage_valid": 22.778
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 221,
+          "percentage_valid": 12.278
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "Urban",
+      "numerator": 853,
+      "valid_n": 1954,
+      "missing_n": 40,
+      "percentage_valid": 43.654,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 203,
+          "percentage_valid": 10.389
+        },
+        {
+          "category": "Disagree",
+          "numerator": 541,
+          "percentage_valid": 27.687
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 357,
+          "percentage_valid": 18.27
+        },
+        {
+          "category": "Agree",
+          "numerator": 587,
+          "percentage_valid": 30.041
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 266,
+          "percentage_valid": 13.613
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "IDP Camp",
+      "numerator": 545,
+      "valid_n": 829,
+      "missing_n": 4,
+      "percentage_valid": 65.742,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 28,
+          "percentage_valid": 3.378
+        },
+        {
+          "category": "Disagree",
+          "numerator": 178,
+          "percentage_valid": 21.472
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 78,
+          "percentage_valid": 9.409
+        },
+        {
+          "category": "Agree",
+          "numerator": 326,
+          "percentage_valid": 39.324
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 219,
+          "percentage_valid": 26.417
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "Rural",
+      "numerator": 778,
+      "valid_n": 1936,
+      "missing_n": 31,
+      "percentage_valid": 40.186,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 143,
+          "percentage_valid": 7.386
+        },
+        {
+          "category": "Disagree",
+          "numerator": 449,
+          "percentage_valid": 23.192
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 566,
+          "percentage_valid": 29.236
+        },
+        {
+          "category": "Agree",
+          "numerator": 384,
+          "percentage_valid": 19.835
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 394,
+          "percentage_valid": 20.351
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "Urban",
+      "numerator": 770,
+      "valid_n": 1766,
+      "missing_n": 16,
+      "percentage_valid": 43.601,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 135,
+          "percentage_valid": 7.644
+        },
+        {
+          "category": "Disagree",
+          "numerator": 476,
+          "percentage_valid": 26.954
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 385,
+          "percentage_valid": 21.801
+        },
+        {
+          "category": "Agree",
+          "numerator": 529,
+          "percentage_valid": 29.955
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 241,
+          "percentage_valid": 13.647
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "IDP Camp",
+      "numerator": 594,
+      "valid_n": 817,
+      "missing_n": 2,
+      "percentage_valid": 72.705,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 30,
+          "percentage_valid": 3.672
+        },
+        {
+          "category": "Disagree",
+          "numerator": 110,
+          "percentage_valid": 13.464
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 83,
+          "percentage_valid": 10.159
+        },
+        {
+          "category": "Agree",
+          "numerator": 415,
+          "percentage_valid": 50.796
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 179,
+          "percentage_valid": 21.909
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "Rural",
+      "numerator": 694,
+      "valid_n": 1880,
+      "missing_n": 34,
+      "percentage_valid": 36.915,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 169,
+          "percentage_valid": 8.989
+        },
+        {
+          "category": "Disagree",
+          "numerator": 434,
+          "percentage_valid": 23.085
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 583,
+          "percentage_valid": 31.011
+        },
+        {
+          "category": "Agree",
+          "numerator": 366,
+          "percentage_valid": 19.468
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 328,
+          "percentage_valid": 17.447
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "Urban",
+      "numerator": 891,
+      "valid_n": 1774,
+      "missing_n": 19,
+      "percentage_valid": 50.225,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 117,
+          "percentage_valid": 6.595
+        },
+        {
+          "category": "Disagree",
+          "numerator": 448,
+          "percentage_valid": 25.254
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 318,
+          "percentage_valid": 17.926
+        },
+        {
+          "category": "Agree",
+          "numerator": 540,
+          "percentage_valid": 30.44
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 351,
+          "percentage_valid": 19.786
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": "all",
+      "year": null,
+      "environment_type": "IDP Camp",
+      "numerator": 3201,
+      "valid_n": 5269,
+      "missing_n": 15,
+      "percentage_valid": 60.752,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 292,
+          "percentage_valid": 5.542
+        },
+        {
+          "category": "Disagree",
+          "numerator": 1105,
+          "percentage_valid": 20.972
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 671,
+          "percentage_valid": 12.735
+        },
+        {
+          "category": "Agree",
+          "numerator": 1923,
+          "percentage_valid": 36.496
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 1278,
+          "percentage_valid": 24.255
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": "all",
+      "year": null,
+      "environment_type": "Rural",
+      "numerator": 4096,
+      "valid_n": 10174,
+      "missing_n": 186,
+      "percentage_valid": 40.259,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 1036,
+          "percentage_valid": 10.183
+        },
+        {
+          "category": "Disagree",
+          "numerator": 2603,
+          "percentage_valid": 25.585
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 2439,
+          "percentage_valid": 23.973
+        },
+        {
+          "category": "Agree",
+          "numerator": 2496,
+          "percentage_valid": 24.533
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 1600,
+          "percentage_valid": 15.726
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_afraid",
+      "wave": "all",
+      "year": null,
+      "environment_type": "Urban",
+      "numerator": 4218,
+      "valid_n": 9166,
+      "missing_n": 117,
+      "percentage_valid": 46.018,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 753,
+          "percentage_valid": 8.215
+        },
+        {
+          "category": "Disagree",
+          "numerator": 2478,
+          "percentage_valid": 27.035
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 1717,
+          "percentage_valid": 18.732
+        },
+        {
+          "category": "Agree",
+          "numerator": 2850,
+          "percentage_valid": 31.093
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 1368,
+          "percentage_valid": 14.925
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "IDP Camp",
+      "numerator": 932,
+      "valid_n": 985,
+      "missing_n": 1,
+      "percentage_valid": 94.619,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 6,
+          "percentage_valid": 0.609
+        },
+        {
+          "category": "Disagree",
+          "numerator": 9,
+          "percentage_valid": 0.914
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 38,
+          "percentage_valid": 3.858
+        },
+        {
+          "category": "Agree",
+          "numerator": 420,
+          "percentage_valid": 42.64
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 512,
+          "percentage_valid": 51.98
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "Rural",
+      "numerator": 1130,
+      "valid_n": 1251,
+      "missing_n": 4,
+      "percentage_valid": 90.328,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 21,
+          "percentage_valid": 1.679
+        },
+        {
+          "category": "Disagree",
+          "numerator": 50,
+          "percentage_valid": 3.997
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 50,
+          "percentage_valid": 3.997
+        },
+        {
+          "category": "Agree",
+          "numerator": 621,
+          "percentage_valid": 49.64
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 509,
+          "percentage_valid": 40.687
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 2,
+      "year": 2022,
+      "environment_type": "Urban",
+      "numerator": 920,
+      "valid_n": 1148,
+      "missing_n": 6,
+      "percentage_valid": 80.139,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 61,
+          "percentage_valid": 5.314
+        },
+        {
+          "category": "Disagree",
+          "numerator": 76,
+          "percentage_valid": 6.62
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 91,
+          "percentage_valid": 7.927
+        },
+        {
+          "category": "Agree",
+          "numerator": 596,
+          "percentage_valid": 51.916
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 324,
+          "percentage_valid": 28.223
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "IDP Camp",
+      "numerator": 789,
+      "valid_n": 947,
+      "missing_n": 0,
+      "percentage_valid": 83.316,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 10,
+          "percentage_valid": 1.056
+        },
+        {
+          "category": "Disagree",
+          "numerator": 43,
+          "percentage_valid": 4.541
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 105,
+          "percentage_valid": 11.088
+        },
+        {
+          "category": "Agree",
+          "numerator": 356,
+          "percentage_valid": 37.592
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 433,
+          "percentage_valid": 45.723
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "Rural",
+      "numerator": 1277,
+      "valid_n": 1413,
+      "missing_n": 17,
+      "percentage_valid": 90.375,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 21,
+          "percentage_valid": 1.486
+        },
+        {
+          "category": "Disagree",
+          "numerator": 40,
+          "percentage_valid": 2.831
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 75,
+          "percentage_valid": 5.308
+        },
+        {
+          "category": "Agree",
+          "numerator": 616,
+          "percentage_valid": 43.595
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 661,
+          "percentage_valid": 46.78
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 3,
+      "year": 2022,
+      "environment_type": "Urban",
+      "numerator": 629,
+      "valid_n": 790,
+      "missing_n": 6,
+      "percentage_valid": 79.62,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 29,
+          "percentage_valid": 3.671
+        },
+        {
+          "category": "Disagree",
+          "numerator": 47,
+          "percentage_valid": 5.949
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 85,
+          "percentage_valid": 10.759
+        },
+        {
+          "category": "Agree",
+          "numerator": 387,
+          "percentage_valid": 48.987
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 242,
+          "percentage_valid": 30.633
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "IDP Camp",
+      "numerator": 693,
+      "valid_n": 779,
+      "missing_n": 1,
+      "percentage_valid": 88.96,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 6,
+          "percentage_valid": 0.77
+        },
+        {
+          "category": "Disagree",
+          "numerator": 37,
+          "percentage_valid": 4.75
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 43,
+          "percentage_valid": 5.52
+        },
+        {
+          "category": "Agree",
+          "numerator": 447,
+          "percentage_valid": 57.381
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 246,
+          "percentage_valid": 31.579
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "Rural",
+      "numerator": 1580,
+      "valid_n": 1899,
+      "missing_n": 39,
+      "percentage_valid": 83.202,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 35,
+          "percentage_valid": 1.843
+        },
+        {
+          "category": "Disagree",
+          "numerator": 90,
+          "percentage_valid": 4.739
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 194,
+          "percentage_valid": 10.216
+        },
+        {
+          "category": "Agree",
+          "numerator": 806,
+          "percentage_valid": 42.443
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 774,
+          "percentage_valid": 40.758
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 4,
+      "year": 2023,
+      "environment_type": "Urban",
+      "numerator": 1436,
+      "valid_n": 1733,
+      "missing_n": 31,
+      "percentage_valid": 82.862,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 39,
+          "percentage_valid": 2.25
+        },
+        {
+          "category": "Disagree",
+          "numerator": 89,
+          "percentage_valid": 5.136
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 169,
+          "percentage_valid": 9.752
+        },
+        {
+          "category": "Agree",
+          "numerator": 748,
+          "percentage_valid": 43.162
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 688,
+          "percentage_valid": 39.7
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "IDP Camp",
+      "numerator": 780,
+      "valid_n": 912,
+      "missing_n": 7,
+      "percentage_valid": 85.526,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 30,
+          "percentage_valid": 3.289
+        },
+        {
+          "category": "Disagree",
+          "numerator": 62,
+          "percentage_valid": 6.798
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 40,
+          "percentage_valid": 4.386
+        },
+        {
+          "category": "Agree",
+          "numerator": 581,
+          "percentage_valid": 63.706
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 199,
+          "percentage_valid": 21.82
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "Rural",
+      "numerator": 1505,
+      "valid_n": 1805,
+      "missing_n": 51,
+      "percentage_valid": 83.38,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 25,
+          "percentage_valid": 1.385
+        },
+        {
+          "category": "Disagree",
+          "numerator": 79,
+          "percentage_valid": 4.377
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 196,
+          "percentage_valid": 10.859
+        },
+        {
+          "category": "Agree",
+          "numerator": 834,
+          "percentage_valid": 46.205
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 671,
+          "percentage_valid": 37.175
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 5,
+      "year": 2024,
+      "environment_type": "Urban",
+      "numerator": 1601,
+      "valid_n": 1955,
+      "missing_n": 39,
+      "percentage_valid": 81.893,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 43,
+          "percentage_valid": 2.199
+        },
+        {
+          "category": "Disagree",
+          "numerator": 100,
+          "percentage_valid": 5.115
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 211,
+          "percentage_valid": 10.793
+        },
+        {
+          "category": "Agree",
+          "numerator": 836,
+          "percentage_valid": 42.762
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 765,
+          "percentage_valid": 39.13
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "IDP Camp",
+      "numerator": 647,
+      "valid_n": 826,
+      "missing_n": 7,
+      "percentage_valid": 78.329,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 13,
+          "percentage_valid": 1.574
+        },
+        {
+          "category": "Disagree",
+          "numerator": 106,
+          "percentage_valid": 12.833
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 60,
+          "percentage_valid": 7.264
+        },
+        {
+          "category": "Agree",
+          "numerator": 376,
+          "percentage_valid": 45.521
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 271,
+          "percentage_valid": 32.809
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "Rural",
+      "numerator": 1510,
+      "valid_n": 1934,
+      "missing_n": 33,
+      "percentage_valid": 78.077,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 38,
+          "percentage_valid": 1.965
+        },
+        {
+          "category": "Disagree",
+          "numerator": 120,
+          "percentage_valid": 6.205
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 266,
+          "percentage_valid": 13.754
+        },
+        {
+          "category": "Agree",
+          "numerator": 830,
+          "percentage_valid": 42.916
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 680,
+          "percentage_valid": 35.16
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 6,
+      "year": 2025,
+      "environment_type": "Urban",
+      "numerator": 1318,
+      "valid_n": 1763,
+      "missing_n": 19,
+      "percentage_valid": 74.759,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 63,
+          "percentage_valid": 3.573
+        },
+        {
+          "category": "Disagree",
+          "numerator": 147,
+          "percentage_valid": 8.338
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 235,
+          "percentage_valid": 13.33
+        },
+        {
+          "category": "Agree",
+          "numerator": 938,
+          "percentage_valid": 53.205
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 380,
+          "percentage_valid": 21.554
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "IDP Camp",
+      "numerator": 636,
+      "valid_n": 815,
+      "missing_n": 4,
+      "percentage_valid": 78.037,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 25,
+          "percentage_valid": 3.067
+        },
+        {
+          "category": "Disagree",
+          "numerator": 91,
+          "percentage_valid": 11.166
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 63,
+          "percentage_valid": 7.73
+        },
+        {
+          "category": "Agree",
+          "numerator": 381,
+          "percentage_valid": 46.748
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 255,
+          "percentage_valid": 31.288
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "Rural",
+      "numerator": 1381,
+      "valid_n": 1891,
+      "missing_n": 23,
+      "percentage_valid": 73.03,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 54,
+          "percentage_valid": 2.856
+        },
+        {
+          "category": "Disagree",
+          "numerator": 150,
+          "percentage_valid": 7.932
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 306,
+          "percentage_valid": 16.182
+        },
+        {
+          "category": "Agree",
+          "numerator": 662,
+          "percentage_valid": 35.008
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 719,
+          "percentage_valid": 38.022
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": 7,
+      "year": 2026,
+      "environment_type": "Urban",
+      "numerator": 1287,
+      "valid_n": 1771,
+      "missing_n": 22,
+      "percentage_valid": 72.671,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 55,
+          "percentage_valid": 3.106
+        },
+        {
+          "category": "Disagree",
+          "numerator": 182,
+          "percentage_valid": 10.277
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 247,
+          "percentage_valid": 13.947
+        },
+        {
+          "category": "Agree",
+          "numerator": 793,
+          "percentage_valid": 44.777
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 494,
+          "percentage_valid": 27.894
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": "all",
+      "year": null,
+      "environment_type": "IDP Camp",
+      "numerator": 4477,
+      "valid_n": 5264,
+      "missing_n": 20,
+      "percentage_valid": 85.049,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 90,
+          "percentage_valid": 1.71
+        },
+        {
+          "category": "Disagree",
+          "numerator": 348,
+          "percentage_valid": 6.611
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 349,
+          "percentage_valid": 6.63
+        },
+        {
+          "category": "Agree",
+          "numerator": 2561,
+          "percentage_valid": 48.651
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 1916,
+          "percentage_valid": 36.398
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": "all",
+      "year": null,
+      "environment_type": "Rural",
+      "numerator": 8383,
+      "valid_n": 10193,
+      "missing_n": 167,
+      "percentage_valid": 82.243,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 194,
+          "percentage_valid": 1.903
+        },
+        {
+          "category": "Disagree",
+          "numerator": 529,
+          "percentage_valid": 5.19
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 1087,
+          "percentage_valid": 10.664
+        },
+        {
+          "category": "Agree",
+          "numerator": 4369,
+          "percentage_valid": 42.863
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 4014,
+          "percentage_valid": 39.38
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    },
+    {
+      "measure_id": "elections_hopeful",
+      "wave": "all",
+      "year": null,
+      "environment_type": "Urban",
+      "numerator": 7191,
+      "valid_n": 9160,
+      "missing_n": 123,
+      "percentage_valid": 78.504,
+      "distribution": [
+        {
+          "category": "Strongly disagree",
+          "numerator": 290,
+          "percentage_valid": 3.166
+        },
+        {
+          "category": "Disagree",
+          "numerator": 641,
+          "percentage_valid": 6.998
+        },
+        {
+          "category": "Neither agree nor disagree (nus-nus)",
+          "numerator": 1038,
+          "percentage_valid": 11.332
+        },
+        {
+          "category": "Agree",
+          "numerator": 4298,
+          "percentage_valid": 46.921
+        },
+        {
+          "category": "Strongly agree",
+          "numerator": 2893,
+          "percentage_valid": 31.583
+        }
+      ],
+      "suppression_status": "publishable_provisional"
+    }
+  ],
+  "validation": {
+    "status": "pass_provisional",
+    "errors": []
+  }
+}
