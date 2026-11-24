@@ -53,7 +53,7 @@
           <span class="north-label" aria-hidden="true">N ↑</span>
           {#each rows as row}<button class="map-point" class:selected={selectedLocation===row.location} class:suppressed={row.metric_value===null} style={`left:${left(row.longitude)};top:${top(row.latitude)};width:${dotSize(row.metric_value)}px;height:${dotSize(row.metric_value)}px;opacity:${row.metric_value === null ? .7 : .48 + row.metric_value / 200}`} aria-label={`${row.display_name}: ${row.metric_value===null?'result unavailable':`${row.metric_value.toFixed(1)} percent`}`} on:click={() => selectedLocation=row.location}><span class="sr-only">{row.display_name}</span></button>{/each}
         </div>
-        <p class="map-note">Larger, darker markers indicate a higher percentage selecting <strong>{metricLabel}</strong>. Only locations surveyed in this wave appear. Blank areas do not represent zero responses.</p>
+        <p class="map-note"><strong>Click a location</strong> to see detailed results for that area. Larger, darker markers indicate a higher percentage selecting <strong>{metricLabel}</strong>. Only locations surveyed in this wave appear. Blank areas do not represent zero responses.</p>
       </div>
       {#if selected}<aside class="location-detail">
         <p class="eyebrow">Selected survey location</p><h3>{selected.display_name}</h3><p class="place-meta">{selected.adm2}, {selected.adm1}</p>

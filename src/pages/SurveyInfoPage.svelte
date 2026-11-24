@@ -7,6 +7,7 @@
     <div><strong>2021–2026</strong><span>fieldwork period</span></div>
     <div><strong>27,203</strong><span>adult interviews</span></div>
     <div><strong>29</strong><span>recorded survey locations</span></div>
+    <div><strong>November 2026</strong><span>data last updated</span></div>
   </div>
 </section>
 
@@ -17,7 +18,6 @@
   </div>
   <div class="survey-overview-copy">
     <p>The Perceptions of Peace in South Sudan series records daily experiences of safety and views on peace and conflict, elections, governance and security arrangements, trust in public authorities, civic space, national identity, social cohesion, displacement, humanitarian assistance and the regional effects of the war in Sudan.</p>
-    <p>The research is led by Dr Jan Pospisil in collaboration with Detcro, the United States Institute of Peace and partners. It is a key component of PeaceRep’s South Sudan programme.</p>
     <p>Wave 7 added 4,526 interviews conducted in two phases: February–April and August–September 2026.</p>
   </div>
 </section>
@@ -39,9 +39,42 @@
     <h2 id="citation-title">How to cite the survey</h2>
   </div>
   <div>
-    <p class="citation-text">Pospisil, Jan; David Deng; Dawkins, Sophia; Christopher Oringa, 2025, “Perceptions of Peace in South Sudan Surveys”, Harvard Dataverse, V1.</p>
+    <p class=”citation-text”>Pospisil, Jan, David Deng, Sophia Dawkins, and Christopher Oringa. 2025. “Perceptions of Peace in South Sudan Surveys.” Harvard Dataverse. https://doi.org/10.7910/DVN/E5VXV4.</p>
     <a class="primary-link" href="https://doi.org/10.7910/DVN/E5VXV4" target="_blank" rel="noreferrer">View the dataset and citation <span aria-hidden="true">→</span></a>
     <div class="survey-related-links"><a href="https://peacerep.org/about/countries/south-sudan/" target="_blank" rel="noreferrer">Learn about PeaceRep’s South Sudan research</a><a href="https://peacerep.org/country-findings/south-sudan/" target="_blank" rel="noreferrer">Explore South Sudan findings</a></div>
+  </div>
+</section>
+
+<section class="survey-resources-section" aria-labelledby="resources-title">
+  <div>
+    <p class="section-number">Research and resources</p>
+    <h2 id="resources-title">Publications, analysis and video</h2>
+  </div>
+  <div class="survey-resources-grid">
+    <div class="resources-group">
+      <h3>Research publications</h3>
+      <ul class="resources-list">
+        <li><a href="https://peacerep.org/publication/trends-in-civic-space-and-elections-in-south-sudan-2026/" target="_blank" rel="noreferrer">Trends in Civic Space and Elections in South Sudan 2026</a></li>
+        <li><a href="https://peacerep.org/publication/trends-in-civic-space-and-elections-in-south-sudan/" target="_blank" rel="noreferrer">Trends in Civic Space and Elections in South Sudan</a></li>
+        <li><a href="https://peacerep.org/publication/elections-and-civic-space-in-south-sudan/" target="_blank" rel="noreferrer">Elections and Civic Space in South Sudan</a></li>
+        <li><a href="https://peacerep.org/publication/perceptions-of-national-elections-in-south-sudan/" target="_blank" rel="noreferrer">Perceptions of National Elections in South Sudan</a></li>
+        <li><a href="https://peacerep.org/publication/elections-perceptions-of-peace-in-south-sudan/" target="_blank" rel="noreferrer">Elections: Perceptions of Peace in South Sudan</a></li>
+      </ul>
+    </div>
+    <div class="resources-group">
+      <h3>Analysis and commentary</h3>
+      <ul class="resources-list">
+        <li><a href="https://peacerep.org/2026/09/28/in-the-caretaker-trap-the-legal-end-of-south-sudans-transition/" target="_blank" rel="noreferrer">In the Caretaker Trap: The Legal End of South Sudan's Transition</a></li>
+        <li><a href="https://peacerep.org/2026/07/08/south-sudan-at-15/" target="_blank" rel="noreferrer">South Sudan at 15</a></li>
+      </ul>
+    </div>
+    <div class="resources-group">
+      <h3>Video</h3>
+      <ul class="resources-list">
+        <li><a href="https://www.youtube.com/watch?v=7iFT1_LytcQ" target="_blank" rel="noreferrer">South Sudan is not North Korea or Uganda — Dr. Jan Pospisil</a></li>
+        <li><a href="https://www.youtube.com/watch?v=bUTSIfMiMK4" target="_blank" rel="noreferrer">Elections are better than the alternative — Dr. Jan Pospisil</a></li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -58,4 +91,28 @@
   </dl>
 </section>
 
-<aside class="survey-review-note"><strong>This is a review version.</strong> The interface and evidence presentation are being shared for feedback and are not yet approved for public release.</aside>
+<section class="survey-team-section" aria-labelledby="team-title">
+  <div>
+    <p class="section-number">Research team</p>
+    <h2 id="team-title">The people behind the survey</h2>
+  </div>
+  <div class="survey-team-copy">
+    <p>The survey is led by Dr Jan Pospisil and conducted in collaboration with Detcro, the United States Institute of Peace and partners. It is a core component of PeaceRep's South Sudan programme.</p>
+    <dl class="team-list">
+      <div><dt>Principal investigator</dt><dd>Jan Pospisil</dd></div>
+      <div><dt>Research team</dt><dd>David Deng, Christopher Oringa, Sophia Dawkins</dd></div>
+      <div><dt>Data</dt><dd>Niamh Henry</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="survey-partners-section" aria-labelledby="partners-title">
+  <p class="section-number">Partners and funders</p>
+  <h2 id="partners-title">Support and acknowledgements</h2>
+  <p class="partners-note">Supported by UK International Development, the United States Institute of Peace, the European Union and the Friedrich-Ebert-Stiftung South Sudan office. The views expressed do not necessarily reflect the official policies of the supporting organisations or the UK Government.</p>
+  <div class="partner-logos">
+    <a href="https://peacerep.org" target="_blank" rel="noreferrer"><img class="logo-peacerep" src="/peacerep-logo.png" alt="PeaceRep" /></a>
+    <a href="https://detcro.org" target="_blank" rel="noreferrer"><img class="logo-detcro" src="/detcro-logo.png" alt="Detcro" /></a>
+    <img class="logo-eu" src="/eu-funded.png" alt="Funded by the European Union" />
+  </div>
+</section>

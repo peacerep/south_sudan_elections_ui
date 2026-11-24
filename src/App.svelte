@@ -19,7 +19,6 @@
 </script>
 
 <svelte:head>
-  <meta name="robots" content="noindex,nofollow" />
   <title>{page === 'home' ? 'South Sudan Elections: What People Think' : page === 'about' ? 'About the Perceptions of Peace Survey' : page === 'geography' ? 'Election opinions by surveyed location' : page === 'respondents' ? 'Election opinions by survey environment' : 'Election opinion trends'}</title>
 </svelte:head>
 
@@ -47,11 +46,8 @@
 
 <footer class="site-footer">
   <div class="footer-inner">
-    <div><strong>PeaceRep</strong><span>South Sudan Perceptions of Peace Survey</span></div>
-    <p><strong>Status:</strong> Not for public release yet.</p>
-    <p><strong>About the survey:</strong> Waves 1–7 contain 27,203 substantive adult interviews conducted from 2021 to 2026 across 29 recorded survey locations in 16 counties. Each wave interviewed a new cross-section; the survey does not follow the same people over time.</p>
-    <p><strong>Interpreting the results:</strong> Results are unweighted respondent distributions for surveyed locations, not national population estimates or forecasts. Percentages use valid responses; unanswered cases are reported separately in the detailed charts.</p>
-    <p><strong>Research team:</strong> Jan Pospisil, David Deng, Christopher Oringa and Sophia Dawkins. Public data collated and cleaned by Niamh Henry.</p>
-    <p>Supported by UK International Development, USIP and the Friedrich-Ebert-Stiftung South Sudan office. The views expressed do not necessarily reflect the UK Government’s official policies.</p>
+    <div class="footer-brand"><img class="footer-logo" src="/peacerep-logo.png" alt="PeaceRep" /><div><strong>PeaceRep</strong><span>South Sudan Perceptions of Peace Survey</span></div></div>
+    <p>Seven waves of cross-sectional interviews, 2021–2026. Results are unweighted respondent distributions for surveyed locations, not national estimates. <a href="?view=about">About the survey →</a></p>
+    <p class="footer-funders">Supported by UK International Development, USIP, the European Union and the Friedrich-Ebert-Stiftung South Sudan office.</p>
   </div>
 </footer>
